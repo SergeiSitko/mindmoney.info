@@ -744,3 +744,19 @@ footer {
 .footer-contact a:hover {
   color: var(--blue);
 }
+
+.hero-topline .broker-label {
+  margin: 0;
+}
+@media (max-width: 700px) {
+  .hero-topline .broker-label {
+    display: block;
+    max-width: 210px;
+    margin-top: 20px;
+    padding-top: 0;
+    border: 0;
+  }
+  .hero-topline .broker-label > span {
+    margin-bottom: 10px;
+  }
+}

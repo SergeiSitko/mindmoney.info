@@ -34,7 +34,17 @@ function App() {
         <section id="top" className="hero wrap">
           <div className="hero-topline">
             <p className="eyebrow">ЛИЧНЫЙ ОПЫТ С MIND MONEY LIMITED</p>
-            <span className="edition">Ноябрь 2024 - август 2026</span>
+            <aside className="broker-label">
+              <span>О КАКОМ БРОКЕРЕ ЭТА ИСТОРИЯ</span>
+              <div className="broker-logo">
+                <img
+                  src="/mind-money-logo.svg"
+                  alt="Mind Money - логотип брокера"
+                  width="204"
+                  height="32"
+                />
+              </div>
+            </aside>
           </div>
           <h1>
             Проблемы у брокера.
@@ -52,21 +62,7 @@ function App() {
                 Думало ли руководство брокера о том, что будет с клиентами?
                 Ответ, на мой взгляд, на поверхности.
               </p>
-              <a className="read-link" href="#story">
-                Вот моя история <Plus size={18} />
-              </a>
             </div>
-            <aside className="broker-label">
-              <span>О КАКОМ БРОКЕРЕ ЭТА ИСТОРИЯ</span>
-              <div className="broker-logo">
-                <img
-                  src="/mind-money-logo.svg"
-                  alt="Mind Money - логотип брокера"
-                  width="204"
-                  height="32"
-                />
-              </div>
-            </aside>
           </div>
         </section>
 
