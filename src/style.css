@@ -89,7 +89,7 @@ html {
   color: var(--blue);
 }
 .hero {
-  padding-block: 52px 60px;
+  padding-block: 26px 30px;
 }
 .hero-topline {
   display: flex;
@@ -137,7 +137,7 @@ h1 span {
   line-height: 1.75;
   max-width: 620px;
   color: #4b5871;
-  margin-bottom: 25px;
+  margin-bottom: 12.5px;
 }
 .read-link {
   display: inline-flex;
@@ -186,7 +186,7 @@ h1 span {
 .story-section {
   background: #f2f6fc;
   border-block: 1px solid #e6ecf5;
-  padding-block: 62px;
+  padding-block: 31px;
 }
 .story-section h2,
 .section-intro h2 {
@@ -223,7 +223,7 @@ h1 span {
   margin-bottom: 0;
 }
 .events-section {
-  padding-block: 70px 35px;
+  padding-block: 35px 17.5px;
 }
 .section-intro {
   margin-bottom: 40px;
@@ -235,7 +235,7 @@ h1 span {
   display: grid;
   grid-template-columns: 240px minmax(0, 1fr);
   gap: 58px;
-  padding-block: 40px;
+  padding-block: 20px;
   border-top: 1px solid var(--line);
 }
 .event-date {
@@ -317,7 +317,7 @@ h1 span {
 .questions-section {
   background: var(--navy);
   color: #fff;
-  padding-block: 65px;
+  padding-block: 32.5px;
   margin-top: 20px;
 }
 .questions-section .eyebrow {
@@ -346,7 +346,7 @@ h1 span {
   margin-bottom: 0;
 }
 .response-section {
-  padding-block: 62px 45px;
+  padding-block: 31px 22.5px;
 }
 .response-section .eyebrow {
   font-size: 0.75rem;
@@ -367,7 +367,7 @@ h1 span {
 }
 .materials-section {
   border-top: 1px solid var(--line);
-  padding-block: 38px 60px;
+  padding-block: 19px 30px;
 }
 .materials-section h2 {
   font-size: 1.6rem;
@@ -404,7 +404,7 @@ h1 span {
 footer {
   background: #f5f7fb;
   border-top: 1px solid var(--line);
-  padding-block: 32px;
+  padding-block: 16px;
 }
 .footer-inner {
   display: grid;
@@ -492,7 +492,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     gap: 17px;
-    padding-block: 20px;
+    padding-block: 10px;
   }
   .site-name {
     font-size: 1.3rem;
@@ -508,7 +508,7 @@ footer {
     padding: 0;
   }
   .hero {
-    padding-block: 30px 37px;
+    padding-block: 15px 18.5px;
   }
   .hero-topline {
     display: block;
@@ -567,7 +567,7 @@ footer {
     line-height: 1.6;
   }
   .story-section {
-    padding-block: 37px;
+    padding-block: 18.5px;
   }
   .story-section h2,
   .section-intro h2 {
@@ -584,14 +584,14 @@ footer {
     font-size: 0.8125rem;
   }
   .events-section {
-    padding-block: 40px 12px;
+    padding-block: 20px 6px;
   }
   .section-intro {
     margin-bottom: 28px;
   }
   .event {
     display: block;
-    padding-block: 29px;
+    padding-block: 14.5px;
   }
   .event-date {
     padding: 0;
@@ -627,7 +627,7 @@ footer {
     font-size: 0.6875rem;
   }
   .questions-section {
-    padding-block: 39px;
+    padding-block: 19.5px;
     margin-top: 5px;
   }
   .questions-section h2 {
@@ -640,13 +640,13 @@ footer {
     font-size: 0.9375rem;
   }
   .response-section {
-    padding-block: 39px 32px;
+    padding-block: 19.5px 16px;
   }
   .response-section h2 {
     font-size: 1.6rem;
   }
   .materials-section {
-    padding-block: 30px 40px;
+    padding-block: 15px 20px;
   }
   .materials-section h2 {
     font-size: 1.45rem;
@@ -705,7 +705,7 @@ footer {
 }
 
 .collective-section {
-  padding-block: 52px;
+  padding-block: 26px;
   border-bottom: 1px solid var(--line);
 }
 .collective-section .eyebrow {
@@ -728,7 +728,7 @@ footer {
     gap: 13px 22px;
   }
   .collective-section {
-    padding-block: 36px;
+    padding-block: 18px;
   }
   .collective-section h2 {
     font-size: 1.6rem;
